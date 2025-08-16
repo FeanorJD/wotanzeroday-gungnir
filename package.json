@@ -1,4 +1,3 @@
-cat > package.json << 'EOF'
 {
   "name": "wotanzeroday-gungnir",
   "version": "2.3.1",
@@ -63,4 +62,4 @@ cat > package.json << 'EOF'
     "npm": ">=8.0.0"
   }
 }
-EOF
+
