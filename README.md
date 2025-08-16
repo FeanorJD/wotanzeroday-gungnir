@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Wotanzeroday - Gungnir 🏹
 
 ![Gungnir Banner](https://img.shields.io/badge/Wotanzeroday-Gungnir%20v2.3.1-red?style=for-the-badge&logo=target&logoColor=white)
