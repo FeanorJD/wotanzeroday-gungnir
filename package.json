@@ -1,0 +1,66 @@
+cat > package.json << 'EOF'
+{
+  "name": "wotanzeroday-gungnir",
+  "version": "2.3.1",
+  "description": "Advanced SOC platform for zero-day detection and threat hunting",
+  "author": "Pablo Bobadilla <pablo.bobadilla@cybersec.ar>",
+  "license": "MIT",
+  "homepage": "https://github.com/FeanorJD/wotanzeroday-gungnir#readme",
+  "keywords": [
+    "soc",
+    "cybersecurity", 
+    "zero-day",
+    "threat-hunting",
+    "norse-mythology",
+    "incident-response",
+    "vulnerability-scanner",
+    "penetration-testing"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && serve -s build",
+    "docker": "docker-compose up -d",
+    "install-deps": "chmod +x scripts/install.sh && ./scripts/install.sh"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.263.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "serve": "^14.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeanorJD/wotanzeroday-gungnir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FeanorJD/wotanzeroday-gungnir/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+EOF
