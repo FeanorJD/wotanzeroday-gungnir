@@ -4,7 +4,7 @@
   "description": "Advanced SOC platform for zero-day detection and threat hunting",
   "author": "Pablo Bobadilla <pablo.bobadilla@cybersec.ar>",
   "license": "MIT",
-  "homepage": "/FeanorJD/wotanzeroday-gungnir",
+  "homepage": ".",
   "keywords": [
     "soc",
     "cybersecurity", 
