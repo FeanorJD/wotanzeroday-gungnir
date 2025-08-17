@@ -1,0 +1,24 @@
+# Wotanzeroday Gungnir Backend Dependencies
+# Advanced SOC Platform with AI Analysis
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# HTTP Client & Async
+httpx==0.25.2
+aiofiles==23.2.1
+requests==2.31.0
+
+# Network Scanning
+python-nmap==0.7.1
+
+# AI/ML (opcional - descomenta si tienes API keys)
+# openai==1.3.0
+
+# Data Processing
+pydantic==2.5.0
+
+# Utilities
+python-dotenv==1.0.0
